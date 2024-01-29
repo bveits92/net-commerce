@@ -1,30 +1,40 @@
-# Prerequisites
-*.d
+# Build Folders
+bin/
+obj/
 
-# Compiled Object files
-*.slo
-*.lo
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ReSharper / Rider
+.idea/
+*.sln.DotSettings
+*.sln.DotSettings.user
+
+# VS Code
+.vscode/
+
+# NuGet
+packages/
+*.nupkg
+
+# OS generated files
+.DS_Store*
+Thumbs.db
+ehthumbs.db
+
+# Visual Studio files
+.vs/
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# Compiled Object files, Static and Dynamic libs (add the line: *.dll)
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
 
 # Executables
 *.exe
